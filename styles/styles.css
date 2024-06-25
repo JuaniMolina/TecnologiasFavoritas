@@ -1,0 +1,264 @@
+:root{
+    --colorPrimario: #005954;
+    --colorSecundario: #338b85;
+    --colorTerciario: #5dc1b9;
+    --colorCuarto: #9ce0db54;
+    --colorQuinto:#d5ffff;
+    --colorbtn:#005954;
+    --colorbtnHover:#047b75;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--colorPrimario);
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.btn-nav:hover{
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    background-color: #b2b6baa0;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: var(--colorPrimario);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--colorCuarto);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.tecnologias-favoritos{
+    border: 1px solid var(--colorSecundario);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.actividades-favoritas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--colorCuarto);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.p-sobremi{
+    background-color: #b2b6ba5a;
+    margin: 1em;
+    padding: 25px;
+    width: 85vw;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align:justify;
+}
+
+.title{
+    text-align: center;
+    margin: 1.5em;
+    font-size: 28px;
+    text-align: center;
+    color: #302626;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/*------------------------------------- tarjetas ----------------------------------------- */
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+.card-items{
+    align-items: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card{
+    margin: 2em;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    border-radius: 10%;
+}
+
+
+/*------------------------- Actividades favoritas--------------------------------- */
+
+
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-grupo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    font-size: 18px;
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+main button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--colorbtn);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--colorbtnHover);
+}
+
+/* --------------------- Formulario ------------------------------------- */
+
+.formulario{
+    margin: 30px;
+    padding: 20px;
+    background-color: #b2b6ba5a;
+    border-radius: 5px;
+    width: 80vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+/* --------------------- Contenedor de Tjt ------------------------------------- */
+
+.actividades_contenedor{
+    display: flex;
+    margin: 30px;
+}
+
+/* ----------------------- Tarjeta ---------------------------------------- */
+
+.tarjeta {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.tarjeta h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tarjeta p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.tarjeta img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.tarjeta:hover{
+    transform: scale(1.2);
+}

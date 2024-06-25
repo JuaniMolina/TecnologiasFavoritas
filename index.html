@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+    <title>Proyecto M1 - Juan Ignacio Molina</title>
+</head>
+<body>
+    <header>
+        <h1>Proyecto M1 - Juan Molina</h1>
+        <nav>
+            <ul>
+                <li class="btn-nav"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="btn-nav"><a href="#tecnologias-favoritos">Mis Tecnologías favoritas</a></li>
+                <li class="btn-nav"><a href="#actividades-favoritas">Mis actividades favoritas</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="sobre-mi" class="sobre-mi">
+            <div class="title">
+                <h2>Juan Ignacio Molina</h2>
+            </div>
+            <p class="p-sobremi">Mi nombre es Juan Ignacio Molina, tengo 34 años y soy de Tigre, Buenos Aires, Argentina. <br> 
+                Soy un apasionado del arte en sí, y esto lo veo reflejado en muchos aspectos de mi vida. Me gusta Cocinar, soy un muy buen cocinero!, toco la guitarra y el bajo, trabaje muchos años como actor y desarrollar es algo que me gusto de siempre. <br>
+                Respecto a la Programacion hace algunos años estoy adentrandome en las tecnologias para ser desarrollador Full Stack. Asi que con Henry! esto va a ser Posible. Actualmente no estoy trabajando para poder darle toda la atencion posible al curso. <br>
+                Soy de hincha de River Plate y me gusta ir a la cancha!. Salir y hacer amigxs es algo que tambien me define.
+                Nos vemos en la cursada!</p>
+        </section>
+
+
+
+        <section id="tecnologias-favoritos" class="tecnologias-favoritos">
+            <div class="title">
+                <h2>Mis lenguajes de programación favoritos</h2>
+            </div>
+            <div class="cards">
+                <div class="card_container">
+                    <div class="card">
+                        <div class="card-items">
+                            <img src="https://www.rudolpharts.com/images/2016011101HTML5_Logo.png" alt="HTML5">
+                            <div class="card-text">
+                                <h5>HTML</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-items">
+                            <img src="https://i.pinimg.com/474x/d5/cd/fa/d5cdfab0bec790f3e69ca95930cfa7b5.jpg" alt="JavaScript"> 
+                            <div class="card-text">
+                                <h5>JavaScript</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-items">
+                            <img src="https://sonysimon.com/wp-content/uploads/2016/07/css.png" alt="Css3"> 
+                            <div class="card-text">
+                                <h5>Css</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-items">
+                            <img src="https://static-00.iconduck.com/assets.00/python-icon-256x256-892onvae.png" alt="Css3"> 
+                            <div class="card-text">
+                                <h5>Python</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="actividades-favoritas" class="actividades-favoritas">
+            <div class="title">
+                <h2>Mis actividades favoritas</h2>
+            </div>
+            <form class="formulario">
+                <div class="form-grupo">
+                    <label for="titulo-actividad">Título:</label>
+                    <input type="text" id="titulo-actividad" name="titulo-actividad" >
+                </div>
+                <div class="form-grupo">
+                    <label for="descripcion-actividad">Descripción:</label>
+                    <textarea id="descripcion-actividad" name="descripcion-actividad" ></textarea>
+                </div>
+                <div class="form-grupo">
+                    <label for="imagen-actividad">URL de la imagen:</label>
+                    <input type="url" id="imagen-actividad" name="imagen-actividad" >
+                </div>
+                <button id="agregar-actividad" type="button">Agregar Actividad</button>
+            </form>
+            
+            <div id="actividades_contenedor" class="actividades_contenedor"></div>
+        </section>
+    </main>
+    <script src="./scripts/index.js"></script>
+</body>
+<footer>
+    <ul>
+        <li><a href="https://www.instagram.com/fuaninacio/">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/juan-ignacio-molina/">Linkedin</a></li>
+        <li><a href="#">Facebook</a></li>
+    </ul>
+</footer>
+</html>

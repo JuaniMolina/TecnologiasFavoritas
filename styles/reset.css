@@ -1,0 +1,54 @@
+/* Basic CSS Reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font size and family */
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Remove list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove hyperlinks underlines */
+a {
+  text-decoration: none;
+}
+
+/* Set base styles for images */
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
